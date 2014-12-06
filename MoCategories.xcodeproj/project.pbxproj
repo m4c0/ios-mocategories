@@ -11,6 +11,8 @@
 		442A093B1A333E3000F90C1D /* NSArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 442A09391A333E3000F90C1D /* NSArray+Shuffle.m */; };
 		442A09491A33454C00F90C1D /* NSArray+RandomObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 442A09471A33454C00F90C1D /* NSArray+RandomObj.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		442A094A1A33454C00F90C1D /* NSArray+RandomObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 442A09481A33454C00F90C1D /* NSArray+RandomObj.m */; };
+		442A09541A3375AC00F90C1D /* NSMutableArray+Queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 442A09521A3375AC00F90C1D /* NSMutableArray+Queue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		442A09551A3375AC00F90C1D /* NSMutableArray+Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 442A09531A3375AC00F90C1D /* NSMutableArray+Queue.m */; };
 		44B254831A14566000F5F503 /* MoCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B254821A14566000F5F503 /* MoCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44B2549A1A14578300F5F503 /* NSArray+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B254981A14578300F5F503 /* NSArray+Map.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44B2549B1A14578300F5F503 /* NSArray+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B254991A14578300F5F503 /* NSArray+Map.m */; };
@@ -21,6 +23,8 @@
 		442A09391A333E3000F90C1D /* NSArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Shuffle.m"; sourceTree = "<group>"; };
 		442A09471A33454C00F90C1D /* NSArray+RandomObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RandomObj.h"; sourceTree = "<group>"; };
 		442A09481A33454C00F90C1D /* NSArray+RandomObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RandomObj.m"; sourceTree = "<group>"; };
+		442A09521A3375AC00F90C1D /* NSMutableArray+Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Queue.h"; sourceTree = "<group>"; };
+		442A09531A3375AC00F90C1D /* NSMutableArray+Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Queue.m"; sourceTree = "<group>"; };
 		44B2547D1A14566000F5F503 /* MoCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B254811A14566000F5F503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44B254821A14566000F5F503 /* MoCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoCategories.h; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 				442A09481A33454C00F90C1D /* NSArray+RandomObj.m */,
 				442A09381A333E3000F90C1D /* NSArray+Shuffle.h */,
 				442A09391A333E3000F90C1D /* NSArray+Shuffle.m */,
+				442A09521A3375AC00F90C1D /* NSMutableArray+Queue.h */,
+				442A09531A3375AC00F90C1D /* NSMutableArray+Queue.m */,
 				44B254801A14566000F5F503 /* Supporting Files */,
 			);
 			path = MoCategories;
@@ -88,6 +94,7 @@
 				442A09491A33454C00F90C1D /* NSArray+RandomObj.h in Headers */,
 				44B2549A1A14578300F5F503 /* NSArray+Map.h in Headers */,
 				44B254831A14566000F5F503 /* MoCategories.h in Headers */,
+				442A09541A3375AC00F90C1D /* NSMutableArray+Queue.h in Headers */,
 				442A093A1A333E3000F90C1D /* NSArray+Shuffle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,6 +169,7 @@
 				442A094A1A33454C00F90C1D /* NSArray+RandomObj.m in Sources */,
 				442A093B1A333E3000F90C1D /* NSArray+Shuffle.m in Sources */,
 				44B2549B1A14578300F5F503 /* NSArray+Map.m in Sources */,
+				442A09551A3375AC00F90C1D /* NSMutableArray+Queue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

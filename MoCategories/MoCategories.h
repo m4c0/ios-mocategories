@@ -18,3 +18,4 @@ FOUNDATION_EXPORT const unsigned char MoCategoriesVersionString[];
 #import <MoCategories/NSArray+Map.h>
 #import <MoCategories/NSArray+RandomObj.h>
 #import <MoCategories/NSArray+Shuffle.h>
+#import <MoCategories/NSMutableArray+Queue.h>
