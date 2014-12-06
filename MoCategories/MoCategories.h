@@ -16,3 +16,5 @@ FOUNDATION_EXPORT const unsigned char MoCategoriesVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MoCategories/PublicHeader.h>
 #import <MoCategories/NSArray+Map.h>
+#import <MoCategories/NSArray+RandomObj.h>
+#import <MoCategories/NSArray+Shuffle.h>
