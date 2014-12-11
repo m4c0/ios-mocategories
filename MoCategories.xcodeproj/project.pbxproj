@@ -13,7 +13,7 @@
 		442A094A1A33454C00F90C1D /* NSArray+RandomObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 442A09481A33454C00F90C1D /* NSArray+RandomObj.m */; };
 		442A09541A3375AC00F90C1D /* NSMutableArray+Queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 442A09521A3375AC00F90C1D /* NSMutableArray+Queue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		442A09551A3375AC00F90C1D /* NSMutableArray+Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 442A09531A3375AC00F90C1D /* NSMutableArray+Queue.m */; };
-		445C40871A3926BF00915A86 /* NSMutableArray+Shuffle.h in Headers */ = {isa = PBXBuildFile; fileRef = 445C40851A3926BF00915A86 /* NSMutableArray+Shuffle.h */; };
+		445C40871A3926BF00915A86 /* NSMutableArray+Shuffle.h in Headers */ = {isa = PBXBuildFile; fileRef = 445C40851A3926BF00915A86 /* NSMutableArray+Shuffle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		445C40881A3926BF00915A86 /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C40861A3926BF00915A86 /* NSMutableArray+Shuffle.m */; };
 		44B254831A14566000F5F503 /* MoCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B254821A14566000F5F503 /* MoCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44B2549A1A14578300F5F503 /* NSArray+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B254981A14578300F5F503 /* NSArray+Map.h */; settings = {ATTRIBUTES = (Public, ); }; };
