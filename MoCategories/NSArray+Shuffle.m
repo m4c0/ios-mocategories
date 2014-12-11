@@ -8,14 +8,13 @@
 
 #import "NSArray+Shuffle.h"
 
+#import "NSMutableArray+Shuffle.h"
+
 @implementation NSArray (Shuffle)
 
 - (NSArray *)arrayByShufflingObjects {
     NSMutableArray * arr = [self mutableCopy];
-    for (int i = 0; i < [arr count]; i++) {
-        int j = arc4random_uniform((int)[arr count]);
-        [arr exchangeObjectAtIndex:i withObjectAtIndex:j];
-    }
+    [arr shuffleObjects];
     return [arr copy];
 }
 
